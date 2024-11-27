@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color:white;
+}
+ header{
+    background-color: #090C9B;
+ }
+
+.app-container {
+    display: flex;
+  }
+  
+  .hlavni-obsah {
+    flex: 1;
+    padding: 20px;
+  }
+  .container {
+    display: flex; 
+  flex-direction: row; 
+  justify-content: flex-start; 
+  align-items: flex-start; 
+  gap: 20px; 
+  }
+  
+  .mt-5 {
+    margin-top: 40px;
+  }
+
+  .filter-section {
+    width: 25%; 
+  }
+  .car-list-section {
+    width: 75%; 
+  }
+  
+  

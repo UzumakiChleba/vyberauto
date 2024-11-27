@@ -1,0 +1,83 @@
+/* Navbar */
+
+header {
+  width: 100%;
+  background-color: #0582CA !important; 
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.container nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  width: 100%;
+}
+
+/* Logo */
+
+.logo {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-height: 50px;
+  width: auto;
+}
+
+/* Search bar */
+
+.search-bar {
+  flex: 2; 
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 70%; 
+}
+
+.search-bar .search-btn {
+  background-color: #fff;
+  color: #0023a5;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+/* Přihlásit se */
+
+.nav-Link {
+  flex: 1; 
+  display: flex;
+  justify-content: flex-end; 
+}
+
+.nav-Link li {
+  list-style: none;
+}
+
+.nav-Link a {
+  color: white;
+  text-decoration: none;
+  background-color: #2E2C2F;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.nav-Link a:hover {
+  background-color: #444;
+}
+
+

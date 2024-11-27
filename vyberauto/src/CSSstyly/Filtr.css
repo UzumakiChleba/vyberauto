@@ -1,0 +1,77 @@
+.filtr-panel {
+  width: 250px;
+  background-color: #2E2C2F;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  position: relative;
+  top: 20px;
+}
+
+.filtr-skupina {
+  display: block;
+}
+
+.filtr-skupina h4 {
+  margin-top: 0;
+  font-size: 1.1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtr-skupina label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.filtr-skupina input,
+.filtr-skupina select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+}
+
+.filtr-skupina input[type="checkbox"] {
+  width: auto;
+  margin-right: 5px;
+}
+
+.vyhledat-tlacitko {
+  background-color: black; 
+  color: #ffffff; 
+  font-size: 1.2em; 
+  padding: 10px 20px; 
+  border: none; 
+  cursor: pointer; 
+  display: block; 
+  margin: 20px auto; 
+  text-align: center; 
+}
+
+.vyhledat-tlacitko:hover {
+  background-color: #444; 
+}
+
+.arrow-icon {
+  cursor: pointer;
+  font-size: 22px;  
+  color: white;
+  transition: transform 0.3s ease;
+  margin-left: 100px;
+  padding:10px;
+  padding-top: 5px;
+}
+
+.arrow-icon.rotate {
+  transform: rotate(180deg); 
+}
+
+.arrow-icon:hover{
+  background-color: #444;
+}
+
+

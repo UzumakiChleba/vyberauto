@@ -1,0 +1,92 @@
+  .login-container {
+    width: 100%;
+  max-width: 400px;
+  margin: 200px auto 0 auto; 
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  background: linear-gradient(135deg, #6f7bff, #4caf50); 
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 24px;
+  }
+ 
+  .login-container label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+    font-weight: 600;
+    color: #fff;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .register-link,
+  .login-link {
+    margin-top: 20px;
+  }
+  
+  .register-link p,
+  .login-link p {
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .register-link a,
+  .login-link a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .register-link a:hover,
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
