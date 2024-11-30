@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import "../CSSstyly/LoginPage.css"; // Import your CSS file
+import "../CSSstyly/LoginPage.css"; 
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');
@@ -9,7 +9,6 @@ const LoginPage = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     console.log('Login with:', email, password);
-    // Add login logic here
   };
 
   return (
