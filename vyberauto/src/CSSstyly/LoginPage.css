@@ -7,7 +7,7 @@
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   text-align: center;
-  background: linear-gradient(135deg, #6f7bff, #4caf50); 
+  background: #1a374d; 
   }
   
   .login-container h2 {
@@ -36,7 +36,7 @@
   .login-container button {
     width: 100%;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: #9a55f3;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -45,7 +45,7 @@
   }
   
   .login-container button:hover {
-    background-color: #45a049;
+    background-color: #9a55f3;
   }
   
   .register-link,
@@ -76,7 +76,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #4CAF50;
+    background-color: #9a55f3;
     color: white;
   }
   

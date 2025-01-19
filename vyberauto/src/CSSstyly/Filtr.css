@@ -1,9 +1,9 @@
 .filtr-panel {
   width: 250px;
-  background-color: #2E2C2F;
+  background-color: #1a374d ;
   padding: 20px;
   border-radius: 5px;
-  color: white;
+  color: #adcbd7;
   position: relative;
   top: 20px;
 }
@@ -41,8 +41,8 @@
 }
 
 .vyhledat-tlacitko {
-  background-color: black; 
-  color: #ffffff; 
+  background-color: #9a55f3; 
+  color: #E5E5E5; 
   font-size: 1.2em; 
   padding: 10px 20px; 
   border: none; 
@@ -52,14 +52,15 @@
   text-align: center; 
 }
 
-.vyhledat-tlacitko:hover {
-  background-color: #444; 
+/* .vyhledat-tlacitko:hover {
+  background-color:#FFD700 ; 
 }
+  */
 
 .arrow-icon {
   cursor: pointer;
-  font-size: 22px;  
-  color: white;
+  font-size: 20px;  
+  color: #E5E5E5;
   transition: transform 0.3s ease;
   margin-left: 100px;
   padding:10px;
@@ -70,8 +71,6 @@
   transform: rotate(180deg); 
 }
 
-.arrow-icon:hover{
-  background-color: #444;
-}
+
 
 

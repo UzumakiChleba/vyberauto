@@ -9,30 +9,28 @@ import './CSSstyly/App.css';
 
 function App() {
   const [filters, setFilters] = useState({});
-
+  
   const handleFilterChange = (newFilters) => {
     setFilters(newFilters);
-    console.log('Applied filters:', newFilters);
+    console.log('Applied filters:', newFilters); // Ověření, že filtry se mění
   };
 
   return (
     <Router>
       <div>
-        <Navbar /> 
+        <Navbar />
         <Routes>
-        
           <Route path="/" element={
             <div className="container">
               <div className="filter-section">
                 <CarFilter onFilterChange={handleFilterChange} />
               </div>
               <div className="car-list-section">
-                <CarList filters={filters} /> 
+                <CarList filters={filters} />
               </div>
             </div>
           } />
           <Route path="/login" element={<LoginPage />} />
-        
           <Route path="/register" element={<RegisterPage />} />
         </Routes>
       </div>
